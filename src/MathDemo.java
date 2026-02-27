@@ -61,5 +61,6 @@ public class MathDemo {
         int num = sc.nextInt();
         System.out.println("Factorial: " + factorial(num));
 
+        //f. They can be called without creating an object of the class, which makes them suitable for utility methods like mathematical operations and saves memory when no instance variables are needed.
     }
 }
